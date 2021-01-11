@@ -24,6 +24,7 @@ function check() {
         }
       };
     });
+    e.preventDefault();
   });
 }
 setInterval(check, 1000);
